@@ -6,6 +6,6 @@ public class MakeAbba {
     }
 
     public static void main(String[] args) {
-        makeAbba("emre","ahmet").s
+        System.out.println(makeAbba("emre","KAZIM"));
     }
 }
