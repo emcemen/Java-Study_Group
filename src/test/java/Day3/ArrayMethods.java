@@ -24,7 +24,9 @@ public class ArrayMethods {
 
         String words = "Today is Wednesday and the weather is very nice";
         System.out.println(Arrays.toString(words.split(" ")));
+        System.out.println(Arrays.toString(words.split("e")));
         System.out.println("----------------");
+
 
         System.out.println(Arrays.toString(words.toCharArray()));//char array allw us to turn each char to an array element
         System.out.println("----------------");
